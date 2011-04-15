@@ -70,7 +70,7 @@ group :development, :test do
   gem 'uuid'
   gem 'steak'
   gem 'capybara'
-  gem 'capybara-envjs'
+  # gem 'capybara-envjs'
   gem 'launchy'
   gem 'database_cleaner'
   gem 'faker'
@@ -84,7 +84,8 @@ group :development, :test do
 
   # -- [ Tools ] ---------------------------------------------------------------
   gem 'rcov'
-  gem 'ruby-debug'
+  gem 'ruby-debug', :platforms => :ruby_18
+  gem 'ruby-debug19', :platforms => :ruby_19, :require => 'ruby-debug'
   gem 'annotate'
   gem "nifty-generators"
 end
