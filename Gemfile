@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.5'
+gem 'rails', '3.0.8'
 
 # Uncomment if you're using sqlite
 # gem 'sqlite3-ruby', :require => 'sqlite3'
@@ -30,7 +30,7 @@ gem 'foursquare2', '~>0.9.0'   # https://gist.github.com/419219 <- github oauth 
 
 #--[ Search ]-------------------------------------------------------------------
 # If you're using the default sql-based search, you can comment this out.
-gem 'thinking-sphinx', '~> 2.0.1', :require => 'thinking_sphinx'
+# gem 'thinking-sphinx', '~> 2.0.1', :require => 'thinking_sphinx'
 
 #--[ Model ]--------------------------------------------------------------------
 gem "paperclip", "~> 2.3"
